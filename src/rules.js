@@ -8,8 +8,8 @@ module.exports = {
   "max-nested-callbacks": ["warn", { max: 2 }],
   "max-depth": ["warn", { max: 2 }],
   "max-params": ["warn", 3],
-  "max-lines": ["warn", { max: 50, skipComments: true }],
-  "max-len": ["warn", 80, { ignoreUrls: true }],
+  "max-lines": ["warn", { max: 120, skipComments: true }],
+  "max-len": ["warn", 80, { ignoreUrls: true, ignoreComments: true }],
   "no-param-reassign": [
     "warn",
     {
