@@ -61,6 +61,10 @@ const publish = [
     {
       assets,
     },
+    "@semantic-release/npm",
+    {
+      npmPublish: true,
+    },
   ],
 ];
 
