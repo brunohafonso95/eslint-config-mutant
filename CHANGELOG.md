@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.1.0...v1.2.0) (2020-08-03)
+
+
+### Features
+
+* adjust on number of lines and line length ([1383e70](https://github.com/brunohafonso95/eslint-config-mutant/commit/1383e700b64d071a522ed9d532d15ab0c7dba647))
+
 # [1.1.0](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.0.0...v1.1.0) (2020-08-03)
 
 
