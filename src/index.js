@@ -9,7 +9,7 @@ module.exports = {
   },
   globals,
   parserOptions: {
-    ecmaVersion: 11,
+    ecmaVersion: 2018,
     sourceType: "module",
   },
   extends: ["airbnb-base", "plugin:prettier/recommended"],
