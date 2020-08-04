@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mutant",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "shareable eslint config based on airbnb base config",
   "main": "src/index.js",
   "dependencies": {
