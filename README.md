@@ -49,7 +49,6 @@ max_line_length = null
 And the configuration is ready to use, the custom rules that the config contains are:
 
 ```javascript
- {
   "prettier/prettier": ["error"],
   "arrow-body-style": "off",
   "function-paren-newline": "off",
@@ -59,8 +58,8 @@ And the configuration is ready to use, the custom rules that the config contains
   "max-nested-callbacks": ["warn", { max: 2 }],
   "max-depth": ["warn", { max: 2 }],
   "max-params": ["warn", 3],
-  "max-lines": ["warn", { max: 50, skipComments: true }],
-  "max-len": ["warn", 80, { ignoreUrls: true }],
+  "max-lines": ["warn", { max: 120, skipComments: true }],
+  "max-len": ["warn", 80, { ignoreUrls: true, ignoreComments: true }],
   "no-param-reassign": [
     "warn",
     {
