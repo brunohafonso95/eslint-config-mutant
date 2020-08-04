@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.2.0...v1.2.1) (2020-08-04)
+
+
+### Bug Fixes
+
+* atualização da versão do ecmaVersion do eslint ([850f3bb](https://github.com/brunohafonso95/eslint-config-mutant/commit/850f3bb864d05533e891c75e3f81d84ab33a4103))
+
 # [1.2.0](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.1.0...v1.2.0) (2020-08-03)
 
 
