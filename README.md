@@ -49,6 +49,7 @@ max_line_length = null
 And the configuration is ready to use, the custom rules that the config contains are:
 
 ```javascript
+{
   "prettier/prettier": ["error"],
   "arrow-body-style": "off",
   "function-paren-newline": "off",
@@ -58,7 +59,16 @@ And the configuration is ready to use, the custom rules that the config contains
   "max-nested-callbacks": ["warn", { max: 2 }],
   "max-depth": ["warn", { max: 2 }],
   "max-params": ["warn", 3],
-  "max-len": ["warn", 80, { ignoreUrls: true, ignoreComments: true }],
+  "max-len": [
+    "warn",
+    80,
+    {
+      ignoreUrls: true,
+      ignoreComments: true,
+      ignoreStrings: true,
+      ignorePattern: "^\\s*const\\s.+=\\s*require\\s*\\(",
+    },
+  ],
   "no-param-reassign": [
     "warn",
     {
@@ -83,4 +93,3 @@ And the configuration is ready to use, the custom rules that the config contains
 ```
 
 the other rules we extends from [Airbnb's JavaScript styleguide](https://github.com/airbnb/javascript)
-
