@@ -1,3 +1,21 @@
+# [1.4.0](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.3.0...v1.4.0) (2020-08-11)
+
+
+### chore
+
+* add the convetional changelog eslint to generate the complete changelog ([631ed3f](https://github.com/brunohafonso95/eslint-config-mutant/commit/631ed3f61d5437d0996fef0c04d087608b72870d))
+
+### feat
+
+* add the more complete changelog rules to generate an complete history ([593abf7](https://github.com/brunohafonso95/eslint-config-mutant/commit/593abf7fb70fde393f402bcc215b7cc7c61de20c))
+* change the preset to commit parser and commit analizer ([366cb03](https://github.com/brunohafonso95/eslint-config-mutant/commit/366cb0300bcf80fe1039f9c2c7392b959c7af4a6))
+
+### fix
+
+* adjust on release config to use the correct config to release-notes-generator ([e2ec484](https://github.com/brunohafonso95/eslint-config-mutant/commit/e2ec484d705912561509d2f164a6dbd2ae794346))
+* adjust on release notes step of release ([9f16b6c](https://github.com/brunohafonso95/eslint-config-mutant/commit/9f16b6c25d01d333578ddddef60184ef852343de))
+* adjust on release notes step of release ([464f1d9](https://github.com/brunohafonso95/eslint-config-mutant/commit/464f1d99c5bb7e7aed73f2ec51999ace4143e553))
+
 # [1.3.0](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.2.3...v1.3.0) (2020-08-11)
 
 
