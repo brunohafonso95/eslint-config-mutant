@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.2.3...v1.3.0) (2020-08-11)
+
+
+### Features
+
+* add the rule to ignore no-use-before-define to functions ([c5a4770](https://github.com/brunohafonso95/eslint-config-mutant/commit/c5a47700514895da224b08699cdb3a7c7a71adfb))
+
 ## [1.2.3](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.2.2...v1.2.3) (2020-08-10)
 
 ## [1.2.2](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.2.1...v1.2.2) (2020-08-05)
