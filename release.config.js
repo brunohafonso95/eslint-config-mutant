@@ -40,7 +40,7 @@ const analyzeCommits = [
 const generateNotes = [
   "@semantic-release/release-notes-generator",
   {
-    preset: "eslint",
+    config: "conventional-changelog-eslint",
     parserOpts: {
       noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
     },
