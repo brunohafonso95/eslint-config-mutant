@@ -39,17 +39,17 @@ const analyzeCommits = [
 
 const generateNotes = [
   [
-  "@semantic-release/release-notes-generator",
-  {
-    preset: "eslint",
-    parserOpts: {
-      noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+    "@semantic-release/release-notes-generator",
+    {
+      preset: "eslint",
+      parserOpts: {
+        noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+      },
+      writerOpts: {
+        commitsSort: ["subject", "scope"],
+      },
     },
-    writerOpts: {
-      commitsSort: ["subject", "scope"],
-    },
-  },
-]
+  ],
 ];
 
 const prepare = [
