@@ -1,4 +1,5 @@
 module.exports = {
+  "no-use-before-define": ["error", { functions: false }],
   "prettier/prettier": ["error"],
   "arrow-body-style": "off",
   "function-paren-newline": "off",
