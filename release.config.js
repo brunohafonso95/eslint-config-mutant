@@ -37,7 +37,19 @@ const analyzeCommits = [
   ],
 ];
 
-const generateNotes = ["@semantic-release/release-notes-generator"];
+const generateNotes = [
+  "@semantic-release/release-notes-generator",
+  {
+    preset: "eslint",
+    parserOpts: {
+      noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+    },
+    writerOpts: {
+      commitsSort: ["subject", "scope"],
+    },
+  },
+];
+
 const prepare = [
   "@semantic-release/changelog",
   [
