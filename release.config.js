@@ -21,7 +21,7 @@ const analyzeCommits = [
   [
     "@semantic-release/commit-analyzer",
     {
-      preset: "angular",
+      preset: "eslint",
       releaseRules: [
         { breaking: true, release: "major" },
         { revert: true, release: "patch" },
@@ -40,7 +40,7 @@ const analyzeCommits = [
 const generateNotes = [
   "@semantic-release/release-notes-generator",
   {
-    config: "conventional-changelog-eslint",
+    preset: "eslint",
     parserOpts: {
       noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
     },
