@@ -50,6 +50,7 @@ And the configuration is ready to use, the custom rules that the config contains
 
 ```javascript
 {
+  "no-use-before-define": ["error", { functions: false }],
   "prettier/prettier": ["error"],
   "arrow-body-style": "off",
   "function-paren-newline": "off",
