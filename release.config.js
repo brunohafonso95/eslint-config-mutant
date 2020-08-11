@@ -21,7 +21,7 @@ const analyzeCommits = [
   [
     "@semantic-release/commit-analyzer",
     {
-      preset: "eslint",
+      preset: "angular",
       releaseRules: [
         { breaking: true, release: "major" },
         { revert: true, release: "patch" },
@@ -38,6 +38,7 @@ const analyzeCommits = [
 ];
 
 const generateNotes = [
+  [
   "@semantic-release/release-notes-generator",
   {
     preset: "eslint",
@@ -48,6 +49,7 @@ const generateNotes = [
       commitsSort: ["subject", "scope"],
     },
   },
+]
 ];
 
 const prepare = [
