@@ -1,3 +1,14 @@
+# [1.5.0](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.4.0...v1.5.0) (2020-08-21)
+
+
+### docs
+
+* update the doc rules ([97495fe](https://github.com/brunohafonso95/eslint-config-mutant/commit/97495fe67cdeb9b37c0819e2267a555ab1095a80))
+
+### feat
+
+* add the rule to avoid prefer export default ([9d6ff1e](https://github.com/brunohafonso95/eslint-config-mutant/commit/9d6ff1e35d66dcaa83b111713fe8017de9c9a251))
+
 # [1.4.0](https://github.com/brunohafonso95/eslint-config-mutant/compare/v1.3.0...v1.4.0) (2020-08-11)
 
 
