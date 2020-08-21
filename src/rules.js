@@ -37,6 +37,7 @@ module.exports = {
       ],
     },
   ],
+  "import/prefer-default-export": "off",
   "no-useless-constructor": "off",
   "class-methods-use-this": "off",
 };
